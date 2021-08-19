@@ -2,6 +2,8 @@
     overflow: hidden;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     position: relative;
 }
 
@@ -15,7 +17,7 @@
     position: absolute;
     right: 10px;
     top: 5px;
-       
+
 }
 
 .card-trip h2 {
@@ -45,6 +47,8 @@
     font-weight: bold;
     width: 400px;
     height: 200px;
+    border-radius: 8px;
+
 }
 
 .card-trip .card-trip-infos .button {
