@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+<div class="banner">
+  <div class="container">
+    <h1>Save any kind of movies!</h1>
+    <h2>Classic</h2>
+  </div>
+</div>
+
+
+
+<br>
+
+
+<div class="card-trip">
+<h1>My Lists</h1>
+    <a href="/lists/new" class= "new-list btn btn-outline-success"> Add a new list </a>
+<% @lists.each do |list| %>
+  <div class="card-trip-infos">
+    <div>
+      <a href="/lists/<%=list.id%>" class= "button"><%= list.name %></a>
+    </div>
+  </div>
+  <% end %>
+</div>
+
+

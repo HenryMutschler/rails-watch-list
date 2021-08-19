@@ -1,0 +1,72 @@
+.card-trip {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.card-trip h1 {
+    font-size: 24px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.card-trip .new-list {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+       
+}
+
+.card-trip h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-trip p {
+    font-size: 12px;
+    opacity: .7;
+    margin: 0;
+}
+
+
+.card-trip .card-trip-infos {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    background-image: url(https://picsum.photos/200/100);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    height: 200px;
+}
+
+.card-trip .card-trip-infos .button {
+   color: white;
+   text-decoration: none;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 28px;
+}
+
+.card-trip-infos .card-trip-user {
+    position: absolute;
+    right: 16px;
+    top: -20px;
+    width: 40px;
+  }
+  
